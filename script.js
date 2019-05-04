@@ -15,7 +15,7 @@ function getRandom(min, max) {
 
 text.onclick = function () {
     text.style.color = colors[getRandom(0, colors.length)];
-    text.style.border = getRandom(1, 20) + "px ridge " + colors[getRandom(0, colors.length)];
+    text.style.border = getRandom(1, 100) + "px ridge " + colors[getRandom(0, colors.length)];
     text.style.fontWeight = "bold";
 }
 
