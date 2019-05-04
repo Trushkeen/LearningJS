@@ -1,0 +1,26 @@
+body {
+    background-color: gainsboro;
+}
+
+.par {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+    visibility: hidden;
+}
+
+.par:first-child {
+    text-align: center;
+    visibility: visible;
+}
+
+.btns {
+    margin: 10px;
+}
+
+.foot{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
