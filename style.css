@@ -1,27 +1,55 @@
 body {
-    background-color: gainsboro;
+    background-image: url("bgr.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.par {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    text-shadow: 2px 2px 3px black;
-    text-align: center;
-    font-size: 50px;
-    visibility: hidden;
-}
-
-.par:first-child {
-    text-align: center;
-    visibility: visible;
-}
-
-.btns {
-    margin: 10px;
-}
-
-.foot{
+.links {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-size: 30px;
+}
+
+.links:first-child {
+    margin-top: 25px;
+}
+
+.links .note {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    animation: slowFontSizeChange 2s infinite ease-in-out, shadow 2s infinite;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+iframe{
+    margin-top:100px;
+}
+
+@keyframes shadow {
+    from {
+        text-shadow: 0 0 3px white;
+    }
+    50% {
+        text-shadow: 0 0 30px white;
+    }
+    to {
+        text-shadow: 0 0 3px white;
+    }
+}
+
+@keyframes slowFontSizeChange {
+    from{
+        font-size: 24px;
+    }
+    50%{
+        font-size: 23px;
+    }
+    to{
+        font-size: 24px;
+    }
 }
