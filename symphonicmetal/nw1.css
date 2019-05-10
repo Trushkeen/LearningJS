@@ -1,0 +1,77 @@
+body
+{
+	background: url('nw1.png');
+}
+
+h1 
+{
+	color: white;
+	font-weight: bold;
+	font-family: "Segoe UI";
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+
+a { text-decoration: none; }
+
+.str:hover{
+	animation: onhover 0.5s ease-in-out;
+}
+
+@keyframes onhover {
+	    0% {
+        transform: translateY(0);
+		}
+    50% {
+        transform: translateY(-5px);
+		text-shadow: 2px 2px 2px white;
+		}
+}
+@keyframes menuanim {
+		50%{
+			text-shadow: 1px 1px 10px white;
+		}
+}
+
+.op
+{
+	font-size: 24px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 100px;
+	color: white;
+	font-family: "Segoe UI Light";
+}
+
+.menu
+{
+	text-align: center;
+	width: 1000px;
+}
+.menu:hover{
+	animation: menuanim 0.5s ease-in-out;
+}
+
+.album
+{
+	font-size: 18px;
+	text-align: center;
+	vertical-align: top;
+	color: white;
+	font-family: "Segoe UI Light";
+	padding-left: 120px;
+	padding-bottom: 5px;
+	width: 200px;
+}
+.album_spec
+{
+	font-size: 20px;
+	text-align: center;
+	vertical-align: top;
+	color: white;
+	font-family: "Segoe UI";
+	padding-left: 120px;
+	width: 200px;
+}

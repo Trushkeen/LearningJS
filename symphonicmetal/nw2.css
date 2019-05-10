@@ -1,0 +1,51 @@
+body
+{
+	background: url('nw2.png');
+}
+
+h1 
+{
+	color: white;
+	font-weight: bold;
+	font-family: "Segoe UI";
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+.tabl
+{
+	text-align: right;
+	font-weight: bold;
+}
+
+.str
+{
+	color: white;
+	text-align: center;
+	padding-left: 50px;
+	font-size: 32px;
+	font-family: "Segoe UI Light";
+	width: 400px;
+}
+
+a { text-decoration: none; }
+
+
+@keyframes menuanim {
+		50%{
+			text-shadow: 1px 1px 10px white;
+		}
+}
+
+.menu
+{
+	text-align: center;
+	width: 1000px;
+}
+.menu:hover{
+	animation: menuanim 1s ease-in-out;
+}
+
+
+

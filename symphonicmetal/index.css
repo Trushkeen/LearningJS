@@ -1,0 +1,56 @@
+body
+{
+	background: url('sr.png');
+}
+
+h1 
+{
+	color: white;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+li
+{
+	padding: 50px;
+	text-align: right;
+	font-weight: bold;
+	color: white;
+	font-size: 32px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a { text-decoration: none; }
+
+h2 {
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: left;
+}
+
+.otstup
+{
+	padding-top: 200px;
+	padding-left: 100px;
+	vertical-align: top;
+}
+
+.ex
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+
+@keyframes anim {
+	    0% {
+        transform: translateY(0);
+		}
+    50% {
+        transform: translateY(-5px);
+		text-shadow: 2px 2px 2px white;
+		}
+}
